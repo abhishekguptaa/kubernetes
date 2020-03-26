@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: manageservice
+spec:
+   containers:
+   - name: manageservice
+     image: abhishekguptaa/manage_service:manage_service
+     ports:
+     - containerPort: 3001
